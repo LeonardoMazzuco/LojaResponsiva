@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para telas menores */
+/* @media only screen and (min-width:481px ) and (max-width:767px){
+
+} */
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+  .navbar-brand {
+    padding: 10px;
+  }
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagem-principal {
+    flex-direction: row;
+  }
+  .colecao {
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+  }
+  .lancamentos__produtos,
+  .camisetas__produtos,
+  .canecas__produtos,
+  .acessorios__produtos,
+  .variedades__produtos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .caixa-produto {
+    width: 90%;
+    margin: 10px 0;
+  }
+}
+
+
+
+
+.background {
+  background-color: #000000;
+}
+/* Sessão do MENU */
+
+.navbar-brand {
+  height: 80px;
+  padding: 20px 50px;
+}
+
+.navbar-nav {
+  gap: 30px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0px !important;
+}
+
+.navbar-nav li:nth-child(7) {
+  border-bottom: 2px white solid;
+}
+
+.nav-item .nav-link:hover {
+  color: #917a50;
+}
+
+.nav-item a {
+  color: white;
+  font-family: DM Sans;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.menu {
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  padding: 5px;
+  list-style: none;
+  margin: 5px;
+  color: white;
+  font-family: DM Sans;
+}
+
+/* Fim da Sessão do MENU */
+.imagem-principal {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.colecao {
+  display: flex;
+  color: white;
+  width: 1090px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  font-family: Wizard World;
+  font-size: 28px;
+}
+
+.lancamentos .lancamentos__title {
+  color: #ac9206;
+  padding: 10px;
+  margin: 10px 0px 0px 18px;
+  border-bottom: solid 2px #ac9206;
+  margin-bottom: 20px;
+  width: 280px;
+  font-family: Wizard World;
+  font-size: 20px;
+}
+.lancamentos .lancamentos__produtos {
+  color: #ac9206;
+  display: flex;
+  justify-content: space-around;
+}
+
+.camisetas .camisetas__title {
+  color: #ac9206;
+  padding: 10px;
+  margin: 10px 0px 0px 18px;
+  border-bottom: solid 2px #ac9206;
+  margin-bottom: 20px;
+  width: 280px;
+  font-family: Wizard World;
+  font-size: 20px;
+}
+
+.camisetas .camisetas__produtos {
+  color: #ac9206;
+  display: flex;
+  justify-content: space-around;
+}
+
+.canecas .canecas__title {
+  color: #ac9206;
+  padding: 10px;
+  margin: 10px 0px 0px 18px;
+  border-bottom: solid 2px #ac9206;
+  margin-bottom: 20px;
+  width: 280px;
+  font-family: Wizard World;
+  font-size: 20px;
+}
+.canecas .canecas__produtos {
+  color: #ac9206;
+  display: flex;
+  justify-content: space-around;
+}
+
+.acessorios .acessorios__title {
+  color: #ac9206;
+  padding: 10px;
+  margin: 10px 0px 0px 18px;
+  border-bottom: solid 2px #ac9206;
+  margin-bottom: 20px;
+  width: 280px;
+  font-family: Wizard World;
+  font-size: 20px;
+}
+.acessorios .acessorios__produtos {
+  color: #ac9206;
+  display: flex;
+  justify-content: space-around;
+}
+
+.variedades .variedades__title {
+  color: #ac9206;
+  padding: 10px;
+  margin: 10px 0px 0px 18px;
+  border-bottom: solid 2px #ac9206;
+  margin-bottom: 20px;
+  width: 280px;
+  font-family: Wizard World;
+  font-size: 20px;
+}
+.variedades .variedades__produtos {
+  color: #ac9206;
+  display: flex;
+  justify-content: space-around;
+}
+
+.comprar {
+  color: #ac9206;
+  background-color: #1e293b;
+  width: 120px;
+  height: 35px;
+  text-align: center;
+  border-radius: 5px;
+}
+button {
+  list-style: none;
+  margin-left: 175px !important;
+}
+
+.preco {
+  color: white;
+}
+.caixa-produto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 310px;
+  height: 590px;
+  border: 2px solid #ac9206;
+  margin: 20px;
+  text-align: center;
+  padding-top: 4px;
+  justify-content: space-around;
+  font-family: DM Sans;
+}
+
+.menu-inferior {
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+  padding: 5px;
+  align-items: center;
+  list-style: none;
+  margin: 5px;
+  color: white;
+}
+
+hr {
+  justify-content: center;
+  width: 80%;
+  margin-top: 20px;
+  background: white;
+  margin: auto;
+}
+
+.navBarFooter__copyright {
+  background: black;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.navBarFooter__copyright p {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  text-align: center;
+  font-family: DM Sans;
+}

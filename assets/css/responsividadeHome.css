@@ -1,0 +1,123 @@
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-logo {
+    height: 100px;
+  }
+
+  .containerPrincipal__bannerPrincipal {
+    width: 100%;
+  }
+  
+  .containerPrincipal__arabescoDireito,
+  .containerPrincipal__arabescoEsquerdo {
+    width: 120px;
+    height: 100px;
+    left: 0px;
+    position: relative;
+  }
+
+  .logoCentral {
+    top: -50px;
+  }
+
+  .logoCentral__h1 {
+    color: white;
+    font-size: 15px;
+    font-family: Wizard World;
+    line-height: 50px;
+  }
+
+  .logoCentral__img {
+    width: 200px;
+    height: 90px;
+  }
+
+  .categorias {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+    /* Filmes */
+
+  .categoriaFilmes,
+  .categoriaLivros,
+  .categoriaPersonagens {
+    width: 410px;
+    height: 402px;
+    top: 120px;
+  }
+
+  .categoriaFilmes__title,
+  .categoriaLivros__title,
+  .categoriaLivros__title,
+  .categoriaPersonagens__title {
+    left: 10px;
+    margin-bottom: 0px;
+  }
+
+  .categoriaFilmes__descritivo,
+  .categoriaPersonagens__descritivo,
+  .categoriaLivros__descritivo {
+    width: 380px;
+    left: 15px;
+    top: 100px;
+  }
+
+  .categoriaFilmes__img,
+  .categoriaLivros__img,
+  .categoriaPersonagens__img{
+    display: none;
+  }
+
+  .boxCasas{
+    padding-top: 30px;
+  }
+  .boxCasas>div {
+    width: 400px;
+    height: 300px;
+  }
+
+  .grifinoria__descritivo,
+  .sonserina__descritivo,
+  .corvinal__descritivo,
+  .lufalufa__descritivo {
+    width: 340px;
+    left: 10px;
+    top: 75px;
+    text-align: justify;
+  }
+
+  .grifinoria__title,
+  .sonserina__title,
+  .lufalufa__titl,
+  .corvinal__title {
+    left: 10px;
+    top: 20px;
+    position: absolute;
+    text-align: left;
+  }
+
+  .grifinoria__membros,
+  .sonserina__membros,
+  .lufa-lufa__membros,
+  .corvinal__membros {
+    width: 340px;
+    left: 10px;
+    top: 230px;
+  }
+  .boxCasas__img,
+  .subCategorias,
+  .navBarFooter__nav{
+    display: none;
+  }
+
+}
