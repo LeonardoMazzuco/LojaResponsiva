@@ -19,7 +19,7 @@
 }
 @media (max-width:649px) {
   .colecao {
-    font-size: 14px !important; /* Tamanho de fonte ajustado para esta faixa */
+    font-size: 13px !important; /* Tamanho de fonte ajustado para esta faixa */
     padding: 5px;
   }
 }
