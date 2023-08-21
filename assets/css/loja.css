@@ -17,10 +17,12 @@
     background-size: cover; /* Ajusta a imagem de fundo para cobrir a caixa */
   }
 }
-@media (max-width:649px) {
+@media (max-width:670px) {
   .colecao {
-    font-size: 14px !important; /* Tamanho de fonte ajustado para esta faixa */
-    padding: 5px;
+    font-size: 13px !important; /* Tamanho de fonte ajustado para esta faixa */
+    padding: 3px;
+    width: 100%;
+    background-size: cover;
   }
 
  }
