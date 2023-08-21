@@ -19,10 +19,11 @@
 }
 @media (max-width:649px) {
   .colecao {
-    font-size: 13px !important; /* Tamanho de fonte ajustado para esta faixa */
+    font-size: 14px !important; /* Tamanho de fonte ajustado para esta faixa */
     padding: 5px;
   }
-}
+
+ }
 
 .background {
   background-color: #000000;
@@ -84,10 +85,10 @@
   margin: auto;
   font-family: Wizard World;
   font-size: 26px;
-  width: 70%; /* Defina a largura desejada */
+  width: 65%; /* Defina a largura desejada */
   max-width: 1090px; /* Largura máxima da caixa */
   height: auto;
-  background-image: url("../Imagens-HarryPotter/vector.jpg.png");
+  background-image: url("/Imagens-HarryPotter/vector.jpg.png");
   background-size: contain; /* Ajusta a imagem de fundo para caber na caixa */
   background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
   background-position: center; /* Centraliza a imagem de fundo */
