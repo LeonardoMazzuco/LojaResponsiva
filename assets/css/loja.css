@@ -87,7 +87,7 @@
   width: 70%; /* Defina a largura desejada */
   max-width: 1090px; /* Largura máxima da caixa */
   height: auto;
-  background-image: url("/Imagens-HarryPotter/vector.jpg.png");
+  background-image: url("../Imagens-HarryPotter/vector.jpg.png");
   background-size: contain; /* Ajusta a imagem de fundo para caber na caixa */
   background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
   background-position: center; /* Centraliza a imagem de fundo */
