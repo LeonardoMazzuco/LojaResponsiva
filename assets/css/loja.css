@@ -3,52 +3,31 @@
   margin: 0;
   padding: 0;
 }
-
-/* Estilos para telas menores */
-/* @media only screen and (min-width:481px ) and (max-width:767px){
-
-} */
-@media (max-width: 768px) {
-  .menu {
-    flex-direction: column;
-  }
-  .navbar-brand {
-    padding: 10px;
-  }
-  .navbar-nav {
-    flex-direction: column;
-    align-items: center;
-  }
-  .imagem-principal {
-    flex-direction: row;
-  }
+@media (min-width: 769px) and (max-width: 1279px) {
   .colecao {
-    font-size: 24px;
-    text-align: center;
-    margin: auto;
-  }
-  .lancamentos__produtos,
-  .camisetas__produtos,
-  .canecas__produtos,
-  .acessorios__produtos,
-  .variedades__produtos {
-    flex-direction: column;
-    align-items: center;
-  }
-  .caixa-produto {
-    width: 90%;
-    margin: 10px 0;
+    font-size: 22px !important; /* Tamanho de fonte ajustado para esta faixa */
+    padding: 15px;
   }
 }
-
-
-
+@media (max-width: 768px) {
+  .colecao {
+    font-size: 18px !important;
+    padding: 10px;
+    width: 100%; /* Ocupa a largura total da tela */
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir a caixa */
+  }
+}
+@media (max-width:649px) {
+  .colecao {
+    font-size: 14px !important; /* Tamanho de fonte ajustado para esta faixa */
+    padding: 5px;
+  }
+}
 
 .background {
   background-color: #000000;
 }
 /* Sessão do MENU */
-
 .navbar-brand {
   height: 80px;
   padding: 20px 50px;
@@ -99,14 +78,21 @@
 .colecao {
   display: flex;
   color: white;
-  width: 1090px;
-  height: 50px;
   align-items: center;
   text-align: center;
   justify-content: center;
   margin: auto;
   font-family: Wizard World;
-  font-size: 28px;
+  font-size: 26px;
+  width: 70%; /* Defina a largura desejada */
+  max-width: 1090px; /* Largura máxima da caixa */
+  height: auto;
+  background-image: url("/Imagens-HarryPotter/vector.jpg.png");
+  background-size: contain; /* Ajusta a imagem de fundo para caber na caixa */
+  background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+  background-position: center; /* Centraliza a imagem de fundo */
+  padding: 20px;
+  box-sizing: border-box; /* Adicione isso para incluir o padding na largura total */
 }
 
 .lancamentos .lancamentos__title {
@@ -123,6 +109,8 @@
   color: #ac9206;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  
 }
 
 .camisetas .camisetas__title {
@@ -140,6 +128,7 @@
   color: #ac9206;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .canecas .canecas__title {
@@ -156,6 +145,7 @@
   color: #ac9206;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .acessorios .acessorios__title {
@@ -172,6 +162,7 @@
   color: #ac9206;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .variedades .variedades__title {
@@ -188,6 +179,7 @@
   color: #ac9206;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .comprar {
