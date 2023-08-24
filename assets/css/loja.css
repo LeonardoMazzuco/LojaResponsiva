@@ -15,8 +15,18 @@
     padding: 10px;
     width: 100%; /* Ocupa a largura total da tela */
     background-size: cover; /* Ajusta a imagem de fundo para cobrir a caixa */
+    }
   }
-}
+  @media (max-width: 768px) {
+    .caixa-produto {
+      flex-wrap: wrap; /* Altera o comportamento de flex-wrap para telas menores */
+      width: calc(100% - 40px);
+      max-width: 310px;
+    }
+  }
+
+
+
 @media (max-width:670px) {
   .colecao {
     font-size: 13px !important; /* Tamanho de fonte ajustado para esta faixa */
@@ -24,8 +34,13 @@
     width: 100%;
     background-size: cover;
   }
+  .caixa-produto {
+    flex-wrap: wrap;
+    width: calc(100% - 100px) !important;
+    max-width: 310px;
 
  }
+}
 
 .background {
   background-color: #000000;
@@ -213,6 +228,7 @@ button {
   padding-top: 4px;
   justify-content: space-around;
   font-family: DM Sans;
+  transition: width 0.3s; /* Adiciona uma transição suave para a mudança de largura */
 }
 
 .menu-inferior {
